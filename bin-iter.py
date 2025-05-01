@@ -1,3 +1,4 @@
+# Code implementation for binary search with iteration
 def binary_search(list_num , to_search):
     first_index = 0
     size = len(list_num)
@@ -10,8 +11,9 @@ def binary_search(list_num , to_search):
     is_found = True
     while is_found:
         if first_index == last_index:
-            if mid_element != to_search:
-                is_found = False
+            if mid_element == to_search:
+                pass
+            else:
                 return f"{to_search} does not appear in the list"
 
         elif mid_element == to_search:
@@ -33,6 +35,7 @@ def binary_search(list_num , to_search):
             mid_element = list_num[mid_index]
             if mid_element == to_search:
                 return f"{mid_element} occurs in position {mid_index}"
+    return None
 
 list_container = [16 , 18 , 20 , 50 , 60 , 81 , 84 , 89]
 print(binary_search(list_container , 81))

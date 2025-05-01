@@ -1,0 +1,6 @@
+# Ignore draft / scratch files
+bin-rec-draft.py
+
+# Bytecode / cache
+__pycache__/
+*.py[cod]
