@@ -1,6 +1,6 @@
 # Binary Search Algorithm 
 
-This mini project demonstrates iterative and recursive Binary Search Algorithms.    
+This mini project demonstrates the iterative and recursive Binary Search Algorithm.    
 Showing two classic divide and conquer implementations of binary search:<br><br>
 
 <small>
