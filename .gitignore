@@ -4,3 +4,6 @@ bin-rec-draft.py
 # Bytecode / cache
 __pycache__/
 *.py[cod]
+
+# Python virtual-env
+.venv/
